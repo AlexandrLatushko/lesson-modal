@@ -1,13 +1,10 @@
-import { Header } from "./components/Header/Header.tsx"
-import { Posts } from "./components/Posts/Posts.tsx"
+import { Cart } from "./components/Cart/Cart"
 
 function App() {
   return (
     <div>
-      <Header />
-      <Posts />
+      <Cart />
     </div>
   )
 }
-
 export default App
