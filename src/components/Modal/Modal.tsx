@@ -25,7 +25,7 @@ export const Modal = ({ onClose, open, modalTitle, children }: Props) => {
                 </button>
               </div>
             </div>,
-            document.body,
+            document.body
           )}
         </>
       )}
