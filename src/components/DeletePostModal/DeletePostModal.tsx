@@ -11,10 +11,8 @@ export const DeletePostModal = ({ open, onClose }: Props) => {
     <ModalRadix open={open} onClose={onClose} modalTitle={"Delete Post"}>
       Are you sure you want to delete this post?
       <div>
-        <Button onClick={onClose}>Yes</Button>
-        <Button onClick={onClose} variant={"secondary"}>
-          No
-        </Button>
+        <Button onClick={onClose} >Yes</Button>
+        <Button onClick={onClose} variant={"secondary"}>No</Button>
       </div>
     </ModalRadix>
   )
